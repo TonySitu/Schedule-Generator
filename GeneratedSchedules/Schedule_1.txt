@@ -1,0 +1,207 @@
+ Time |         Mon         |         Tue         |         Wed         |         Thu         |         Fri         |
+-----------------------------------------------------------------------------------------------------------------------
+
+ 08:00 |                     |                     |                     |                     |                     |
+
+ 08:30 |     SYSC3310A3      |      ECOR2050B      |                     |      ECOR2050B      |     SYSC4001B1      |
+
+ 09:00 |     SYSC3310A3      |      ECOR2050B      |                     |      ECOR2050B      |     SYSC4001B1      |
+
+ 09:30 |     SYSC3310A3      |      ECOR2050B      |                     |      ECOR2050B      |     SYSC4001B1      |
+
+ 10:00 |     SYSC3310A3      |      SYSC4001B      |                     |      SYSC4001B      |     SYSC4001B1      |
+
+ 10:30 |                     |      SYSC4001B      |                     |      SYSC4001B      |     SYSC4001B1      |
+
+ 11:00 |                     |      SYSC4001B      |                     |      SYSC4001B      |     SYSC4001B1      |
+
+ 11:30 |     SYSC3110L1      |                     |      SYSC3120A      |                     |      SYSC3120A      |
+
+ 12:00 |     SYSC3110L1      |                     |      SYSC3120A      |                     |      SYSC3120A      |
+
+ 12:30 |     SYSC3110L1      |                     |      SYSC3120A      |                     |      SYSC3120A      |
+
+ 13:00 |     SYSC3110L1      |                     |      SYSC3110A      |                     |      SYSC3110A      |
+
+ 13:30 |     SYSC3110L1      |                     |      SYSC3110A      |                     |      SYSC3110A      |
+
+ 14:00 |     SYSC3110L1      |                     |      SYSC3110A      |                     |      SYSC3110A      |
+
+ 14:30 |     SYSC3120L2O     |                     |     ECOR2050L01     |                     |                     |
+
+ 15:00 |     SYSC3120L2O     |                     |     ECOR2050L01     |                     |                     |
+
+ 15:30 |     SYSC3120L2O     |                     |     ECOR2050L01     |                     |                     |
+
+ 16:00 |     SYSC3120L2O     |                     |     ECOR2050L01     |                     |                     |
+
+ 16:30 |     SYSC3120L2O     |                     |     ECOR2050L01     |                     |                     |
+
+ 17:00 |     SYSC3120L2O     |                     |     ECOR2050L01     |                     |                     |
+
+ 17:30 |                     |                     |                     |                     |                     |
+
+ 18:00 |      SYSC3310A      |                     |      SYSC3310A      |                     |                     |
+
+ 18:30 |      SYSC3310A      |                     |      SYSC3310A      |                     |                     |
+
+ 19:00 |      SYSC3310A      |                     |      SYSC3310A      |                     |                     |
+
+ 19:30 |                     |                     |                     |                     |                     |
+
+ 20:00 |                     |                     |                     |                     |                     |
+
+ 20:30 |                     |                     |                     |                     |                     |
+
+Schedule Rating: 660
+Courses: 
+35574 SYSC3110 ['Wed', 'Fri'] A 13:05 14:25
+35577 SYSC3120 ['Wed', 'Fri'] A 11:35 12:55
+35585 SYSC3310 ['Mon', 'Wed'] A 18:05 19:25
+35617 SYSC4001 ['Tue', 'Thu'] B 10:05 11:25
+32358 ECOR2050 ['Tue', 'Thu'] B 08:35 09:55
+35575 SYSC3110 ['Mon'] L1 11:35 14:25
+35579 SYSC3120 ['Mon'] L2O 14:35 17:25
+35589 SYSC3310 ['Mon'] A3 08:35 10:25
+35618 SYSC4001 ['Fri'] B1 08:35 11:25
+32360 ECOR2050 ['Wed'] L01 14:35 17:25Course Codes: SYSC3110, SYSC3120, SYSC3310, SYSC4001, ECOR2050, SYSC3110, SYSC3120, SYSC3310, SYSC4001, ECOR2050
+Crn List: 35574, 35577, 35585, 35617, 32358, 35575, 35579, 35589, 35618, 32360
+
+ Time |         Mon         |         Tue         |         Wed         |         Thu         |         Fri         |
+-----------------------------------------------------------------------------------------------------------------------
+
+ 08:00 |                     |                     |                     |                     |                     |
+
+ 08:30 |     SYSC3310A3      |      ECOR2050B      |                     |      ECOR2050B      |     SYSC4001B1      |
+
+ 09:00 |     SYSC3310A3      |      ECOR2050B      |                     |      ECOR2050B      |     SYSC4001B1      |
+
+ 09:30 |     SYSC3310A3      |      ECOR2050B      |                     |      ECOR2050B      |     SYSC4001B1      |
+
+ 10:00 |     SYSC3310A3      |      SYSC4001B      |                     |      SYSC4001B      |     SYSC4001B1      |
+
+ 10:30 |                     |      SYSC4001B      |                     |      SYSC4001B      |     SYSC4001B1      |
+
+ 11:00 |                     |      SYSC4001B      |                     |      SYSC4001B      |     SYSC4001B1      |
+
+ 11:30 |     SYSC3110L1      |                     |      SYSC3120A      |                     |      SYSC3120A      |
+
+ 12:00 |     SYSC3110L1      |                     |      SYSC3120A      |                     |      SYSC3120A      |
+
+ 12:30 |     SYSC3110L1      |                     |      SYSC3120A      |                     |      SYSC3120A      |
+
+ 13:00 |     SYSC3110L1      |                     |      SYSC3110A      |                     |      SYSC3110A      |
+
+ 13:30 |     SYSC3110L1      |                     |      SYSC3110A      |                     |      SYSC3110A      |
+
+ 14:00 |     SYSC3110L1      |                     |      SYSC3110A      |                     |      SYSC3110A      |
+
+ 14:30 |     SYSC3120L2O     |                     |                     |                     |     ECOR2050L02     |
+
+ 15:00 |     SYSC3120L2O     |                     |                     |                     |     ECOR2050L02     |
+
+ 15:30 |     SYSC3120L2O     |                     |                     |                     |     ECOR2050L02     |
+
+ 16:00 |     SYSC3120L2O     |                     |                     |                     |     ECOR2050L02     |
+
+ 16:30 |     SYSC3120L2O     |                     |                     |                     |     ECOR2050L02     |
+
+ 17:00 |     SYSC3120L2O     |                     |                     |                     |     ECOR2050L02     |
+
+ 17:30 |                     |                     |                     |                     |                     |
+
+ 18:00 |      SYSC3310A      |                     |      SYSC3310A      |                     |                     |
+
+ 18:30 |      SYSC3310A      |                     |      SYSC3310A      |                     |                     |
+
+ 19:00 |      SYSC3310A      |                     |      SYSC3310A      |                     |                     |
+
+ 19:30 |                     |                     |                     |                     |                     |
+
+ 20:00 |                     |                     |                     |                     |                     |
+
+ 20:30 |                     |                     |                     |                     |                     |
+
+Schedule Rating: 660
+Courses: 
+35574 SYSC3110 ['Wed', 'Fri'] A 13:05 14:25
+35577 SYSC3120 ['Wed', 'Fri'] A 11:35 12:55
+35585 SYSC3310 ['Mon', 'Wed'] A 18:05 19:25
+35617 SYSC4001 ['Tue', 'Thu'] B 10:05 11:25
+32358 ECOR2050 ['Tue', 'Thu'] B 08:35 09:55
+35575 SYSC3110 ['Mon'] L1 11:35 14:25
+35579 SYSC3120 ['Mon'] L2O 14:35 17:25
+35589 SYSC3310 ['Mon'] A3 08:35 10:25
+35618 SYSC4001 ['Fri'] B1 08:35 11:25
+32361 ECOR2050 ['Fri'] L02 14:35 17:25Course Codes: SYSC3110, SYSC3120, SYSC3310, SYSC4001, ECOR2050, SYSC3110, SYSC3120, SYSC3310, SYSC4001, ECOR2050
+Crn List: 35574, 35577, 35585, 35617, 32358, 35575, 35579, 35589, 35618, 32361
+
+ Time |         Mon         |         Tue         |         Wed         |         Thu         |         Fri         |
+-----------------------------------------------------------------------------------------------------------------------
+
+ 08:00 |                     |                     |                     |                     |                     |
+
+ 08:30 |     SYSC3310A3      |      ECOR2050B      |     SYSC4001B3      |      ECOR2050B      |                     |
+
+ 09:00 |     SYSC3310A3      |      ECOR2050B      |     SYSC4001B3      |      ECOR2050B      |                     |
+
+ 09:30 |     SYSC3310A3      |      ECOR2050B      |     SYSC4001B3      |      ECOR2050B      |                     |
+
+ 10:00 |     SYSC3310A3      |      SYSC4001B      |     SYSC4001B3      |      SYSC4001B      |                     |
+
+ 10:30 |                     |      SYSC4001B      |     SYSC4001B3      |      SYSC4001B      |                     |
+
+ 11:00 |                     |      SYSC4001B      |     SYSC4001B3      |      SYSC4001B      |                     |
+
+ 11:30 |     SYSC3110L1      |                     |      SYSC3120A      |                     |      SYSC3120A      |
+
+ 12:00 |     SYSC3110L1      |                     |      SYSC3120A      |                     |      SYSC3120A      |
+
+ 12:30 |     SYSC3110L1      |                     |      SYSC3120A      |                     |      SYSC3120A      |
+
+ 13:00 |     SYSC3110L1      |                     |      SYSC3110A      |                     |      SYSC3110A      |
+
+ 13:30 |     SYSC3110L1      |                     |      SYSC3110A      |                     |      SYSC3110A      |
+
+ 14:00 |     SYSC3110L1      |                     |      SYSC3110A      |                     |      SYSC3110A      |
+
+ 14:30 |                     |     SYSC3120L4O     |     ECOR2050L01     |                     |                     |
+
+ 15:00 |                     |     SYSC3120L4O     |     ECOR2050L01     |                     |                     |
+
+ 15:30 |                     |     SYSC3120L4O     |     ECOR2050L01     |                     |                     |
+
+ 16:00 |                     |     SYSC3120L4O     |     ECOR2050L01     |                     |                     |
+
+ 16:30 |                     |     SYSC3120L4O     |     ECOR2050L01     |                     |                     |
+
+ 17:00 |                     |     SYSC3120L4O     |     ECOR2050L01     |                     |                     |
+
+ 17:30 |                     |                     |                     |                     |                     |
+
+ 18:00 |      SYSC3310A      |                     |      SYSC3310A      |                     |                     |
+
+ 18:30 |      SYSC3310A      |                     |      SYSC3310A      |                     |                     |
+
+ 19:00 |      SYSC3310A      |                     |      SYSC3310A      |                     |                     |
+
+ 19:30 |                     |                     |                     |                     |                     |
+
+ 20:00 |                     |                     |                     |                     |                     |
+
+ 20:30 |                     |                     |                     |                     |                     |
+
+Schedule Rating: 660
+Courses: 
+35574 SYSC3110 ['Wed', 'Fri'] A 13:05 14:25
+35577 SYSC3120 ['Wed', 'Fri'] A 11:35 12:55
+35585 SYSC3310 ['Mon', 'Wed'] A 18:05 19:25
+35617 SYSC4001 ['Tue', 'Thu'] B 10:05 11:25
+32358 ECOR2050 ['Tue', 'Thu'] B 08:35 09:55
+35575 SYSC3110 ['Mon'] L1 11:35 14:25
+35581 SYSC3120 ['Tue'] L4O 14:35 17:25
+35589 SYSC3310 ['Mon'] A3 08:35 10:25
+35620 SYSC4001 ['Wed'] B3 08:35 11:25
+32360 ECOR2050 ['Wed'] L01 14:35 17:25Course Codes: SYSC3110, SYSC3120, SYSC3310, SYSC4001, ECOR2050, SYSC3110, SYSC3120, SYSC3310, SYSC4001, ECOR2050
+Crn List: 35574, 35577, 35585, 35617, 32358, 35575, 35581, 35589, 35620, 32360
+
