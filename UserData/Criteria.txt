@@ -1,0 +1,10 @@
+// After the semicolon (;), enter a whole number (+ or -) to filter unwanted schedules and save
+For every 8:35am classes;220
+For ever 10:05am classes; 0
+For every 11:35am classes; 0
+For every day has gaps; 0
+For every late afernoons;0
+For every day offs (Friday); 0
+For every day offs (Monday); 0
+For every day with more than 2 courses; 0
+For every day wiith more tahn 3 courses;0
