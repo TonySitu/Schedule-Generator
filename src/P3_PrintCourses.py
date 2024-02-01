@@ -2,7 +2,7 @@
 # Tony Situ 
 # 2023-06-15
 
-from P2_GenerateSchedules import GenerateSchedules
+from P2_GenerateSchedules import create_course_dict
 from datetime import time, timedelta
 import pickle
 import os
