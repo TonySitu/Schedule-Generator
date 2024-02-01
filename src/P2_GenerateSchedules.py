@@ -18,7 +18,6 @@ def create_schedules() -> tuple[BinaryMaxHeap, int]:
     user_data_dir = os.path.join(current_dir, "..", "UserData")
     criteria_dir = os.path.join(user_data_dir, "Criteria.txt")
 
-    counter = 0
     with open(criteria_dir) as criteria_file:
         for combinations_of_courses in itertools.product(*course_dict.values()):
             course_schedule_list = list(combinations_of_courses)
