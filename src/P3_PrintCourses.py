@@ -23,10 +23,12 @@ def __get_schedule_count() -> int:
     try:
         with open(pkl_dir, "rb") as pkl_file:
             schedule_counter = pickle.load(pkl_file)
-    except:
+    except FileNotFoundError:
         with open(pkl_dir, "wb") as pkl_file:
             schedule_counter = 0
             pickle.dump(schedule_counter, pkl_file)
+    except (PermissionError, OSError) as e:
+        print(f"Error accessing file: {e}")
 
     return schedule_counter
 
