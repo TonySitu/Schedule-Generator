@@ -11,11 +11,14 @@ class Schedule:
         self._rating = None
 
     def __str__(self):
-        return "Schedule Rating: " + str(self._rating) + "\nCourses: \n{}".format \
-            ("\n".join([repr(course) for course in self._course_list]))
+        return "Schedule Rating: " + str(self._rating) + "\nCourses: \n{}".format(
+            "\n".join([repr(course) for course in self._course_list]))
 
     def get_course_list(self) -> list:
         return self._course_list
+
+    def get_section_list(self) -> list:
+        return [course.get_section().strip() for course in self._course_list]
 
     def get_rating(self) -> int:
         return self._rating
@@ -39,7 +42,7 @@ class Schedule:
             line = lines.strip().split(";")
 
             for word in line:
-                word = word.strip()
+                word.strip()
 
             criteria[index] = int(line[1])
 
