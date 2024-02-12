@@ -53,12 +53,11 @@ def __wrap_line(lines: list, add_tutorials: bool, tutorial_dict=None) -> dict:
         course = __create_course(line)
 
         if add_tutorials:
-            if tutorial_dict.get(course.get_code()) is not None:
-                for tutorial in tutorial_dict[course.get_code()]:
-                    if course.get_section() in tutorial.get_section_tie():
-                        if course.get_tutorials() is None:
-                            course.set_tutorial()
-                        course.add_tutorial(tutorial)
+            for tutorial in tutorial_dict[course.get_code()]:
+                if course.get_section() in tutorial.get_section_tie():
+                    if course.get_tutorials() is None:
+                        course.set_tutorial()
+                    course.add_tutorial(tutorial)
 
         if not dictionary.get(course.get_code()):
             dictionary[course.get_code()] = []
