@@ -9,12 +9,18 @@ import os
 
 
 def __get_schedules() -> list:
-    schedules, schedule_count = create_schedules()
+    """
+    Returns a list of 3 generated schedules from the top of the max heap
+    """
+    schedules, *_ = create_schedules()
     schedule1, schedule2, schedule3 = schedules[0], schedules[1], schedules[2]
     return list((schedule1, schedule2, schedule3))
 
 
 def __get_schedule_count() -> int:
+    """
+    Returns the number of schedules the user has generated.
+    """
     counter_file = "ScheduleCounter.pkl"
     current_dir = os.path.dirname(os.path.realpath(__file__))
     data_dir = os.path.join(current_dir, "..", "data")
@@ -34,12 +40,15 @@ def __get_schedule_count() -> int:
 
 
 def print_schedules():
+    """
+    Creates a txt file that contains the schedules in a table
+    """
     schedule_count = __get_schedule_count()
     string = ""
     weekdays = ["Mon", "Tue", "Wed", "Thu", "Fri"]
     schedules = __get_schedules()
     for index in range(3):
-        string += "{0: ^6}|".format("Time")
+        string += "{0: ^7}|".format("Time")
         for day_of_week in weekdays:
             string += "{0: ^21}|".format(day_of_week)
 
@@ -52,17 +61,20 @@ def print_schedules():
                 for weekday in weekdays:
                     found_course = False
                     for course in schedules[index].get_course_list():
-
-                        if (course.get_start_time() - timedelta(
-                                minutes=5)).time() <= time_block <= course.get_end_time().time() \
-                                and weekday in course.get_days():
+                        if ((course.get_start_time() - timedelta(
+                                minutes=5)).time() <= time_block <= course.get_end_time().time() and
+                                weekday in course.get_days()):
                             string += "{0: ^21}|".format(course.get_code() + course.get_section())
                             found_course = True
 
                     if found_course is False:
                         string += "{0: ^21}|".format("")
-        string += f"\n\n{schedules[index]}"
-        string += "Course Codes: {}\n".format(", ".join(code for code in schedules[index].get_code_list()))
+
+        string += f"\n\n{schedules[index]}\n"
+        string += "Course Codes: {}\n".format(", ".join("{}{}".format(
+            code, section) for code, section in
+                   zip(schedules[index].get_code_list(), schedules[index].get_section_list())))
+
         string += "Crn List: {}\n\n".format(", ".join(str(crn) for crn in schedules[index].get_crn()))
         print(string, end="")
 
