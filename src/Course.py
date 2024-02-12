@@ -36,8 +36,8 @@ class Course:
         return len(common_days) > 0
 
     def __has_time_conflict(self, other_course: Course) -> bool:
-        return (other_course._start_time <= self._start_time <= other_course._end_time) \
-            or self._start_time <= other_course._start_time <= self._end_time
+        return (other_course.get_start_time() <= self._start_time <= other_course.get_end_time()) \
+            or self._start_time <= other_course.get_start_time() <= self._end_time
 
     def get_tutorials(self) -> list:
         return self._tutorials
